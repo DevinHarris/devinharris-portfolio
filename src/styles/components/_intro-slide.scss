@@ -1,0 +1,16 @@
+.intro-slide {
+    align-items: center;
+    background-color: #000;
+    color: $white;
+    display: flex;
+    height: 100vh;
+    position: fixed;
+    flex-direction: column;
+    min-width: 100vw;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    text-transform: uppercase;
+
+}

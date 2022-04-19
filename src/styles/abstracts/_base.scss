@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    // cursor: none;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    background: transparent; 
+    width: 0;
+}
+
+html {
+    font-size: 62.5%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Sources Sans', sans-serif;
+}

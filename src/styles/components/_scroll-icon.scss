@@ -1,0 +1,12 @@
+.scroll {
+    // mix-blend-mode: difference;
+    &__icon {
+        bottom: 5em;
+        font-size: 1.3rem;
+        position: fixed;
+        transform: rotate(270deg);
+        left: 5em;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+    }
+}

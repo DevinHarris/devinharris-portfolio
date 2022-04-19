@@ -1,0 +1,19 @@
+.scrollbar {
+
+    &__wrapper {
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 5px;
+        z-index: 1000;
+
+    }
+
+    &__element {
+        background-color: $white;
+        mix-blend-mode: difference;
+        height: 100%;
+        width: 100%;
+    }
+}
