@@ -73,6 +73,18 @@ const Portfolio = () => {
                             Secreci.
                         </Link>
                     </li>
+                    <li className="project__item">
+                        <Link to="#">
+                            <span className="project__number">04//</span>
+                            Finyl.
+                        </Link>
+                    </li>
+                    <li className="project__item">
+                        <Link to="#">
+                            <span className="project__number">04//</span>
+                            Grove Park.
+                        </Link>
+                    </li>
                 </ul>
                
             </div>
