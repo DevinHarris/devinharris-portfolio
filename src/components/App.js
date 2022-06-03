@@ -38,7 +38,7 @@ const App = () => {
                 trigger: '.home',
                 start: '0%',
                 end: '50%',
-                markers: true,
+                // markers: true,
                 scrub: true
             }
         })
