@@ -17,8 +17,8 @@ const App = () => {
     useEffect(() => {
       const tl = gsap.timeline({
             defaults: {
-                duration: 4,
-                ease: CustomEase.create('custom', 'M0,0 C0.126,0.382 0.48,0.168 0.508,0.58 0.525,0.842 0.818,1.001 1,1')
+                duration: 4
+                // ease: CustomEase.create('custom', 'M0,0 C0.126,0.382 0.48,0.168 0.508,0.58 0.525,0.842 0.818,1.001 1,1')
             }
         })
 

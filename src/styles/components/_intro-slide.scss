@@ -13,4 +13,18 @@
     z-index: 100;
     text-transform: uppercase;
 
+    .intro-logo {
+        // background-image: linear-gradient(to right, rgb(2 2 2), rgb(255, 255, 255), rgb(2 2 2));
+        font-size: 6rem;
+        font-weight: bold;
+        letter-spacing: 0.4rem;
+        margin-bottom: 0.2rem;
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+    }
+
+    .intro-quote {
+        font-size: 1.5rem;
+    }
+
 }
