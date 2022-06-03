@@ -15,7 +15,7 @@ const Portfolio = () => {
                 trigger: '.portfolio__section',
                 start: '0%',
                 end: "100%",
-                markers: true,
+                // markers: true,
                 scrub: true,
                 pin: true
             }
