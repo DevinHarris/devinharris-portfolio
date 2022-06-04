@@ -3,7 +3,7 @@
     
     &__section {
         align-items: center;
-        background-size: cover;
+        background-attachment: fixed;
         display: flex;
         background-color: $grey;
         color: $white;
@@ -19,7 +19,8 @@
 
         .project__image-container {
             // background-size: cover;
-            position: absolute;
+            // position: absolute;
+            position: fixed;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
