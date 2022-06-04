@@ -1,0 +1,67 @@
+{
+    "projects": [
+        {
+            "name": "Mood.",
+            "description": "",
+            "link": "https://mood-app.netlify.app",
+            "background": "https://images.pexels.com/photos/5082579/pexels-photo-5082579.jpeg?cs=srgb&dl=pexels-cottonbro-5082579.jpg&fm=jpg",
+            "tech": ["react", "redux", "express", "node", "mongodb"]
+        },
+
+        {
+            "name": "Truly.",
+            "description": "",
+            "link": "https://tr-uly.netlify.app",
+            "background": "https://images.pexels.com/photos/5052877/pexels-photo-5052877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "tech": ["react", "redux", "express", "node", "mongodb"]
+        },
+
+        {
+            "name": "Secreci.",
+            "description": "",
+            "link": "https://secreci.netlify.app",
+            "background": "https://images.pexels.com/photos/3585088/pexels-photo-3585088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "tech": ["react", "redux", "express", "node", "mongodb"]
+        },
+
+        {
+            "name": "Ptrns.",
+            "description": "",
+            "link": "https://ptrns.netlify.app",
+            "background": "https://images.pexels.com/photos/5077051/pexels-photo-5077051.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "tech": ["react", "redux", "express", "node"]
+        },
+
+        {
+            "name": "Libretto.",
+            "description": "",
+            "link": "https://ptrns.netlify.app",
+            "background": "https://images.pexels.com/photos/6347729/pexels-photo-6347729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "tech": ["react", "redux", "express", "node"]
+        },
+
+        {
+            "name": "Finyl.",
+            "description": "",
+            "link": "https://finyl.netlify.app",
+            "background": "https://images.pexels.com/photos/5077404/pexels-photo-5077404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "tech": ["react"]
+        },
+
+        {
+            "name": "myLvfts.",
+            "description": "",
+            "link": "https://mylvfts.surge.app",
+            "background": "https://images.pexels.com/photos/5077420/pexels-photo-5077420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "tech": ["react"]
+        },
+
+        {
+            "name": "Grove Park Condos.",
+            "description": "",
+            "link": "https://grovepark.netlify.app",
+            "background": "https://images.pexels.com/photos/5081399/pexels-photo-5081399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "tech": ["react"]
+        }
+    ]
+}
