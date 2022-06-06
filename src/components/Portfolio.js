@@ -27,8 +27,17 @@ const Portfolio = () => {
         const imageFade = gsap.timeline({
             defaults: {
                 duration: 0.75,
-                ease: 'power3.out',
-                stagger: 1
+                ease: 'power3.out'
+            }
+        })
+
+        const projectListTl = gsap.timeline({
+            scrollTrigger: {
+                trigger: '.portfolio__projects',
+                start: 0,
+                end: "100%",
+                scrub: true,
+                pin: true
             }
         })
 
@@ -41,7 +50,9 @@ const Portfolio = () => {
         // portfolioTl.fromTo('.portfolio__project', { opacity: 0 }, { opacity: 1, duration: 3, delay: 1, ease: 'easeInOut' }, '<')
         // portfolioTl.to('.projects__container', { x: '-2000px', duration: 1, delay: 2 }, '<')
 
-        imageFade.fromTo('.project__image', { opacity: 0 }, { opacity: 1 });
+        
+        projectListTl.fromTo('.projects__list', { y: 0 }, { y: "-100%", duration: 5 })
+        imageFade.fromTo('.project__image-container', { opacity: 0 }, { opacity: 1, duration: 0.5 });
         
     }, [])
 
@@ -75,7 +86,7 @@ const Portfolio = () => {
                             return (
                                 <li className="project__item" key={`project-${index}`}>
                                     <span className="project__number">{`0${index}//`}</span>
-                                    <Link to={project.link} target="_blank" onMouseOver={(e) => onHover(e.currentTarget.innerText)}>
+                                    <Link to="/project" onMouseOver={(e) => onHover(e.currentTarget.innerText)}>
                                         {project.name}
                                     </Link>
                                 </li>

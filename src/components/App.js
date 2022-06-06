@@ -7,6 +7,7 @@ import { CustomEase } from 'gsap/all';
 import Cursor from "./Cursor";
 import Scrollbar from './Scollbar';
 import Home from './Home';
+import Project from "./Project";
 
 const App = () => {
 
@@ -17,8 +18,8 @@ const App = () => {
     useEffect(() => {
       const tl = gsap.timeline({
             defaults: {
-                duration: 4
-                // ease: CustomEase.create('custom', 'M0,0 C0.126,0.382 0.48,0.168 0.508,0.58 0.525,0.842 0.818,1.001 1,1')
+                ease: 'Circ.easeInOut',
+                duration: .75
             }
         })
 
@@ -27,8 +28,8 @@ const App = () => {
         tl.to('.intro-slide', { y: '-100%', duration: 0.8, delay: 3 }, '<')
 
         
-        tl.fromTo('.home__intro h1', { opacity: 0, y: "-100%" }, { opacity: 1, y: 0, duration: 1, delay: .8 }, '<')
-        tl.fromTo('.home__intro p', { opacity: 0, y: '100%' }, { opacity: 1, y: 0, duration: 1.5, stagger: .5 }, '<')
+        tl.fromTo('.home__intro h1', { opacity: 0, y: "100%" }, { opacity: 1, y: 0, duration: 1, delay: .8 }, '<')
+        tl.fromTo('.home__intro p', { opacity: 0, y: '100%' }, { opacity: 1, y: 0, duration: 1.5, stagger: .5, delay: 1 }, '<')
         tl.fromTo('.home__name', { y: 0, opacity: 0 } , { y: '100%', opacity: 1, duration: .5 }, '<')
         tl.fromTo('.menu-animate', { opacity: 0, y: '-100%' }, { opacity: 1, y: 0, stagger: .5, duration: .3, delay: 1 }, '<')
         tl.fromTo('.scroll__icon', { y: '100%', opacity: 0 }, { y: 0, opacity: 1 }, '<');
@@ -48,7 +49,7 @@ const App = () => {
         homeHeroParallax.fromTo('.home__intro p', { y: 0 }, { y: -200, opacity: 0 }, '<')
         homeHeroParallax.fromTo('.scroll__icon', { y: 0 }, { y: -200 }, '<')
 
-    }, [])
+    })
 
 
     return (
@@ -58,6 +59,7 @@ const App = () => {
             <BrowserRouter>
                 <Routes>
                     <Route exact path="/" element={<Home />} />
+                    <Route path="/project" element={<Project />} />
                 </Routes>
             </BrowserRouter>
         </>
